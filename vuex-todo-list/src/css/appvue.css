@@ -1,0 +1,88 @@
+#app {
+  font-family: cursive;
+  -webkit-font-smoothing: antialiased; /*mac에서 이렇게 쓴다던데 여기서도 되는건가*/
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  /* color: #80b0b0; */
+  color: #5f99dc;
+  margin-top: 60px;
+}
+
+.listView {
+  margin-top: 20px;
+}
+
+.completed {
+  text-decoration: line-through; /*이게 지금 계속 부트스트랩 initial 속성때매 안먹고 있는듯...*/
+  text-decoration-color: red;
+  font-style: italic;
+  color: darkgrey;
+}
+
+
+label {
+  position: relative;
+}
+
+#todo-item {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-size: 1.1em;
+}
+
+#btn {
+  width: 25px;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #5f99dc;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#deleteAll {
+  width: 110px;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #5f99dc;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#save {
+  width: 55px;
+  font-size: 1em;
+  font-weight: bolder;
+  /* background-color: #90d8e2; */
+  background-color: #5f99dc;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#check {
+  width: 95px;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #5f99dc;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#todo-complete {
+  font-size: 0.8em;
+  font-weight: bolder;
+  background-color: #5f99dc;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
